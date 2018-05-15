@@ -9,12 +9,8 @@ function setGradient() {
 	css.textContent = body.style.background + ";";
 }
 
-function myFunction() {
-   var element = document.getElementById("mybut");
-   element.classList.toggle("mystyle");
-}
+
 
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
-//mybut.addEventListener("click", myFunction);
 
