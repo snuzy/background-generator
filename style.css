@@ -1,0 +1,52 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, blue , yellow); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+.mystyle{
+    background: #ff00ff;
+    padding: 15px;
+    color: #999;
+    border: 2px solid #000033;
+    font-size: 17px;
+    border-radius: 25px;
+    transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+/*
+input[type=submit], button[class="mybut"] {
+    background: #ff0000;
+    padding: 15px;
+    border: 2px solid #000033;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+
+button[class="mybut"]:hover {
+    background: #6f8a00;
+    color: #fff;
+}
+*/
+
